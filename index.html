@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="intro-header">
+      <h1>Musa Bin Haron</h1>
+    </div>
+
+    <ul class="flex-container-1">
+      <li class="flex-item-1">
+        <img id="profile-image" src="UHEE9041.JPG" />
+      </li>
+      <li class="flex-item-1">
+        About Me<br />
+        I am currently studying Immersive Media in Ngee Ann Polytechnic.
+        I am truly passionate about picking up and grasping knowledge related to
+        information technology. I aspire to become a lifelong learner,
+        constantly learning and developing fresh new skills.<br /><br />
+        Skills<br />
+        - Adobe Photoshop<br />
+        - Editing Videos<br />
+        - Creating Basic Websites<br /><br />
+        Education<br />
+        - (2009 - 2014) Lakeside Primary School<br />
+        - (2015 - 2018) Jurong Secondary School<br />
+        - (Present) Ngee Ann Polytechnic 
+      </li>
+    </ul>
+
+    <h2 class="projects-header">Projects</h2>
+
+    <ul class="flex-container-2">
+      <li class="flex-item-2"><img class="project-image" src="Abstract.jpg"></li>
+      <li class="flex-item-2"><img class="project-image" src="Team Liquid Banner.png"></li>
+    </ul>
+
+    <h2 class="contact-header">Contact</h2>
+
+    <div class="form-container">
+      <form class="form-items" action="/some-url.php" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" name="name" /><br /><br />
+        <label for="date">Date:</label><br />
+        <input type="date" name="date" /><br /><br />
+        <label for="time">Time:</label><br />
+        <input type="time" name="time" /><br /><br />
+
+        <label for="Question-1">How do you feel today?</label><br />
+        <input type="radio" name="option" value="Happy" />
+        <label for="Happy">Happy</label><br />
+        <input type="radio" name="option" value="Sad" />
+        <label for="Sad">Sad</label><br />
+        <input type="radio" name="option" value="Angry" />
+        <label for="Angry">Angry</label><br />
+        <input type="radio" name="option" value="Neutral" />
+        <label for="Neutral">Neutral</label><br /><br />
+
+        <label for="Question-2"
+          >Which of the following words describe our products?</label
+        >
+        <br />
+        <input type="checkbox" name="word" value="High Quality" />
+        <label for="High Quality">High Quality</label><br />
+        <input type="checkbox" name="word" value="Useful" />
+        <label for="Useful">Useful</label><br />
+        <input type="checkbox" name="word" value="Affordable" />
+        <label for="Affordable">Affordable</label><br />
+        <input type="checkbox" name="word" value="Poor Quality" />
+        <label for="Poor Quality">Poor Quality</label><br />
+        <input type="checkbox" name="word" value="Unreliable" />
+        <label for="Unreliable">Unreliable</label><br /><br />
+
+        <label for="feedback">Additional Feedback:</label><br />
+        <textarea
+          name="feedback"
+          rows="10"
+          cols="50"
+          placeholder="Give us your feedback!"
+        ></textarea
+        ><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer>
+      <p>Hello, this is a footer</p>
+    </footer>
+  </body>
 </html>
