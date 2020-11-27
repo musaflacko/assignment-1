@@ -4,8 +4,8 @@ A chance for you to know more about me.
 
 # Design Process
 For this website, the design seems simple yet it is effective in achieving its goal.<br />
-To let people know more about me in its simplest way. Mostly, images and boxes are used as a design of the website.<br />
-There is not much text available in my portfolio.<br />
+To let people know more about me in its simplest way. Mostly, images and boxes are used as a design of the website and<br /> 
+there is not much text available in my portfolio.<br />
 A website where potential companies or professionals could reach out to me.
 
 # Features
